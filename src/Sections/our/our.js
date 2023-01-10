@@ -1,9 +1,9 @@
-// import React from 'react'
+import React from 'react'
 
-// const our = () => {
-//   return (
-   
-//   )
-// }
+const our = () => {
+  return (
+    <div>NEW WORK SECTION</div>
+  )
+}
 
-// export default our
+export default our

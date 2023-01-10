@@ -267,7 +267,7 @@ const Header = () => {
         <a href="#contact" onClick={(e) => handleClick("contact", e)}>
           <Button>Contact Us</Button>
         </a>
-        <a href="#services" onClick={(e) => handleClick("services", e)}>
+        <a href="pro.html" onClick={(e) => handleClick("services", e)}>
           projects
         </a>
         

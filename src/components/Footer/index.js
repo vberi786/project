@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Twitter from "../../assets/twitter-square-brands.svg";
 import Instagram from "../../assets/instagram-square-brands.svg";
 import Gmail from "../../assets/envelope-open-solid.svg";
-
+import "./style.css"
 const FOOTER = styled.footer`
   padding: 1.2rem calc(2.5rem + 2.5vw);
   font-size: 1rem;
@@ -46,9 +46,15 @@ const LeftText = styled.div`
 const Footer = () => {
   return (
     <FOOTER>
+      <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
       <LeftText>
         © 2022 Built and Design by{" "}
-        <a href="https://www.youtube.com/channel/UCeYt6blRBKuNrEg_-282fSA">
+        <a href="#">
           @Hainaveti
         </a>
       </LeftText>
