@@ -6,6 +6,7 @@ const Header = lazy(() => import("./components/Header/index"));
 const Footer = lazy(() => import("./components/Footer/index"));
 const ScrollToTop = lazy(() => import("./components/ScrollToTop/index"));
 const Works = lazy(() => import("./Sections/Works/inde"));
+// const ProductSlider = lazy(() => import("./components/ProductSlider"));
 const Our = lazy(() => import("./Sections/our/our"));
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <ScrollToTop />
         <Header />
         <Home />
+        {/* <ProductSlider /> */}
         <Footer />
         
       </Suspense>
